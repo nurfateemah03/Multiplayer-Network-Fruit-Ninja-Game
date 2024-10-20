@@ -1,0 +1,20 @@
+#
+# Server configuration file.
+#
+
+# Run in headless mode (no graphics window or input).
+headless:true,
+
+# Log file for Dragonfly output.
+logfile:server.log,
+
+# Window dimensions in characters.
+#window_horizontal_chars:40,
+#window_vertical_chars:13,
+window_horizontal_chars:80,
+window_vertical_chars:26,
+
+# Catch signals (SIGINT, SIGSEGV) - Linux/Mac only.
+signals:false,
+
+networking:true,
